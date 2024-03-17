@@ -1,17 +1,15 @@
 import React from "react";
-import { IoTimeOutline } from "react-icons/io5";
+
+import { FaRegBookmark } from "react-icons/fa";
 
 export default function JobCard({ title, location }) {
   return (
-    <div className="w-[280px] shadow-xl p-5">
+    <div className="w-[280px] p-5 bg-slate-100 rounded-lg">
       <div className="flex items-center justify-between">
         <h3 className="font-[500]">{title}</h3>
-        <p className="flex items-center gap-1 text-slate-500">
-          <span>
-            <IoTimeOutline />
-          </span>
-          Now
-        </p>
+        <span className="flex items-center gap-1 text-blue-500">
+          <FaRegBookmark fontSize={24} />
+        </span>
       </div>
       <h3 className="text-slate-500 my-3">{location}</h3>
       <hr />
