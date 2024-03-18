@@ -11,7 +11,7 @@ export default function Searchbar() {
   return (
     <section className=" bg-slate-100 p-[3rem] rounded-lg">
       {/* Search by  */}
-      <div className="flex items-center justify-between bg-white p-5 rounded-lg">
+      <div className="flex flex-col gap-4 md:flex-row items-center justify-between bg-white p-5 rounded-lg">
         <Search
           icon={<CiSearch fontSize={24} />}
           placeholder={"Search by Title ..."}
@@ -28,7 +28,7 @@ export default function Searchbar() {
       </div>
 
       {/* Selector by */}
-      <div className="flex items-center justify-center gap-12 p-5 rounded-lg mt-4">
+      <div className="hidden lg:flex items-center justify-center gap-12 p-5 rounded-lg mt-4">
         <Selector
           options={["Relavance", "Inclusive", "Starts with", "Contains"]}
         />

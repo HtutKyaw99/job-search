@@ -7,7 +7,7 @@ import { IoPeople } from "react-icons/io5";
 
 export default function Why() {
   return (
-    <section>
+    <section className="px-5 sm:p-0">
       <h1 className="uppercase text-5xl font-bold text-center mt-16">
         Why we are the best
       </h1>
@@ -15,7 +15,7 @@ export default function Why() {
         We have been helping workers to find their jobs for more than 10 years,
         and it continues to grow.
       </p>
-      <div className="flex items-center justify-evenly my-32">
+      <div className="flex flex-col sm:flex-row gap-5 items-center sm:justify-evenly my-16 sm:my-32 ">
         <Item
           icon={<RiFilePaper2Line fontSize={48} />}
           label="Job Offer"

@@ -8,7 +8,7 @@ export default function Job() {
       <h3 className="text-blue-500 uppercase text-2xl text-center font-[500] mt-16 mb-8">
         Explore Jobs
       </h3>
-      <div className="p-5 grid-cols-3 place-items-center grid gap-y-8 ">
+      <div className="p-5 sm:grid-cols-2 md:grid-cols-3 grid-cols-1 place-items-center grid gap-y-8 ">
         {jobs.map((job, idx) => (
           <JobCard key={idx} title={job.title} location={job.location} />
         ))}
