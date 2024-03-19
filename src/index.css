@@ -6,4 +6,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
 }

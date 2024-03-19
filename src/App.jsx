@@ -5,6 +5,8 @@ import Searchbar from "./components/Searchbar";
 import Job from "./components/Job";
 import Companies from "./components/Companies";
 import Why from "./components/Why";
+import Footer from "./components/Footer";
+import Steps from "./components/Steps";
 
 export default function App() {
   return (
@@ -16,8 +18,12 @@ export default function App() {
       <div className="w-full">
         <Companies />
       </div>
-      <Why />
-      <Job />
+      <div className="w-[85%] m-auto">
+        <Why />
+        <Steps />
+        <Job />
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -15,7 +15,7 @@ export default function Companies() {
         className="w-[56px] rounded-full"
         alt="foodpanda logo"
       />
-      <img src={KBZ} className="w-[126px] rounded-full" alt="foodpanda logo" />
+      <img src={KBZ} className="w-[56px] rounded-full" alt="foodpanda logo" />
     </section>
   );
 }
