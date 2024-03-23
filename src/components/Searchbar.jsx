@@ -9,7 +9,7 @@ import Selector from "./Selector";
 
 export default function Searchbar() {
   return (
-    <section className=" bg-slate-100 p-[3rem] rounded-lg">
+    <section className=" bg-slate-100 p-[1rem] sm:p-[3rem] rounded-lg">
       {/* Search by  */}
       <div className="flex flex-col gap-4 md:flex-row items-center justify-between bg-white p-5 rounded-lg">
         <Search

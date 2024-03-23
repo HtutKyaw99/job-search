@@ -11,7 +11,7 @@ import Steps from "./components/Steps";
 export default function App() {
   return (
     <div>
-      <div className="w-[85%] m-auto">
+      <div className="w-full sm:w-[85%] m-auto">
         <Navbar />
         <Searchbar />
       </div>
