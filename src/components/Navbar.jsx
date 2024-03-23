@@ -10,7 +10,10 @@ export default function Navbar() {
           Job<strong>i</strong>
         </h1>
       </div>
-      <CiMenuFries fontSize={24} className="sm:hidden" />
+      <CiMenuFries
+        fontSize={24}
+        className="sm:hidden cursor-pointer absolute right-3"
+      />
       <ul className="hidden sm:flex items-center gap-6 cursor-pointer">
         <li className="hover:text-blue-500 text-lg">Jobs</li>
         <li className="hover:text-blue-500 text-lg">About</li>
